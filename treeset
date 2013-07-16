@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Treeset {
+
+  public static void main(String args[]) {
+  int count[]={21,31,61,51,41,71};
+	SortedSet<Integer> set=new TreeSet<Integer>();
+	try {
+ 	  for(int i=0;i<6;i++) {
+	     set.add(count[i]);
+ 	  }
+	System.out.println(set);
+	}
+        catch(Exception e){}
+ }
+}
